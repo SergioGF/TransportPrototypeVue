@@ -14,7 +14,7 @@ import 'firebase/auth'
 import VueAnalytics from 'vue-analytics'
 
 const gauthOption = {
-  clientId: '354521227503-2f4m6prq5jjs5g1qj1odcl6bhmqc2jv7.apps.googleusercontent.com'
+  clientId: 'XXXXXXX.apps.googleusercontent.com'
 }
 Vue.use(GAuth, gauthOption)
 Vue.use(VueResource)
@@ -28,13 +28,13 @@ Vue.use(VueAnalytics, {
 })
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: 'AIzaSyAdy4Tio9rLlY7UpvCe_G_vPZhM7tYByl8',
-  authDomain: 'tfmv1-231410.firebaseapp.com',
+  apiKey: 'XXXXXXX',
+  authDomain: 'XXXXX.firebaseapp.com',
   databaseURL: 'https://tfmv1-231410.firebaseio.com',
-  projectId: 'tfmv1-231410',
-  storageBucket: 'tfmv1-231410.appspot.com',
-  messagingSenderId: '354521227503',
-  appId: '1:354521227503:web:29ee727c11b5a099'
+  projectId: 'XXXXX',
+  storageBucket: 'XXXXX.appspot.com',
+  messagingSenderId: 'XXXXXX',
+  appId: 'XXXXXX'
 }
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig)
