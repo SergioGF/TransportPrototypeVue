@@ -24,7 +24,7 @@ Vue.use(credsGoogle)
 Vue.use(BootstrapVue)
 Vue.use(firebase)
 Vue.use(VueAnalytics, {
-  id: 'UA-140020631-2'
+  id: 'XXXXXX'
 })
 // Your web app's Firebase configuration
 var firebaseConfig = {
