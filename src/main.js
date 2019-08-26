@@ -30,7 +30,7 @@ Vue.use(VueAnalytics, {
 var firebaseConfig = {
   apiKey: 'XXXXXXX',
   authDomain: 'XXXXX.firebaseapp.com',
-  databaseURL: 'https://tfmv1-231410.firebaseio.com',
+  databaseURL: 'https://XXXXXX.firebaseio.com',
   projectId: 'XXXXX',
   storageBucket: 'XXXXX.appspot.com',
   messagingSenderId: 'XXXXXX',
